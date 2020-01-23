@@ -8,6 +8,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: build_production
   target_branch: static_site
+  repo: $GITHUB_DEPLOY_REPO
   keep-history: true
   email: travis-ci@phpwomen.org.br
   name: Travis-CI
