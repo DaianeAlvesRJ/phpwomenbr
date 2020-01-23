@@ -7,7 +7,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: build_production
-  repo: $GITHUB_DEPLOY_REPO
   target_branch: static_site
   keep-history: true
   email: travis-ci@phpwomen.org.br
